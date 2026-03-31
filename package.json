@@ -1,9 +1,13 @@
 {
   "name": "ugd5-a-2925-root",
   "private": true,
+  "workspaces": [
+    "UGD5_A_2925"
+  ],
   "scripts": {
-    "dev": "npm --prefix ./UGD5_A_2925 run dev",
-    "build": "npm --prefix ./UGD5_A_2925 run build",
-    "lint": "npm --prefix ./UGD5_A_2925 run lint"
-  }
+    "dev": "npm run dev --workspace ugd5-a-2925",
+    "build": "npm run build --workspace ugd5-a-2925",
+    "lint": "npm run lint --workspace ugd5-a-2925"
+  },
+  "packageManager": "npm@11.8.0"
 }
