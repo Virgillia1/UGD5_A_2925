@@ -1,0 +1,9 @@
+{
+  "name": "ugd5-a-2925-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./UGD5_A_2925 run dev",
+    "build": "npm --prefix ./UGD5_A_2925 run build",
+    "lint": "npm --prefix ./UGD5_A_2925 run lint"
+  }
+}
